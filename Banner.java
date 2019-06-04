@@ -43,7 +43,7 @@ public class Banner {
 
 		// variation 5 - use indexed formatters
                 // this allows you to repeat string $1 (LINE) as many times as you like
-		final String FORMAT3 = "%1$s\n %2$2\n%1$s\n %2$s\n%1$s\n";
+		final String FORMAT3 = "%1$s\n %2$\n%1$s\n %2$s\n%1$s\n";
 		System.out.printf(FORMAT3, LINE);
 	}
 }

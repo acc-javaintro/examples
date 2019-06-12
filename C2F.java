@@ -1,4 +1,5 @@
 public class C2F {
+	
     public static void main(String[] args) {
         if (args.length < 1) {
             System.out.println("Usage: java C2F <temp celsius>");
@@ -11,4 +12,5 @@ public class C2F {
         System.out.printf("\n%.1f degrees Celsius is %.1f degrees Fahrenheit\n",
             cels, fahr);
     }
+	
 }
